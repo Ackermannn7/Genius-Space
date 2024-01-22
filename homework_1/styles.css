@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-primary-light: #ffffff;
+  --color-primary-blue: #2b7fff;
+  --color-primary-darkblue: #011c44;
+  --color-seconday-darkgray: #4a4a4a;
+  --color-seconday-lightgray: #747272;
+  --color-seconday-darkblue: #011f4a;
+  --color-seconday-yellow: #ffd02b;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+header .header {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  color: var(--color-primary-blue);
+}
+header .navigation {
+  font-size: 18px;
+  color: var(--color-primary-darkblue);
+}
+header .navigation .active {
+  font-weight: 700;
+  color: var(--color-primary-blue);
+}
+#banner1 .description p:first-child {
+  color: var(--color-primary-darkblue);
+  font-size: 18px;
+}
+#banner1 .description p {
+  font-size: 12px;
+  color: var(--color-seconday-darkgray);
+  line-height: 18px;
+}
+#banner1 .description h1 {
+  color: var(--color-primary-blue);
+  font-family: "Play", sans-serif;
+  font-size: 140px;
+  font-weight: 700;
+}
+button {
+  background-color: var(--color-primary-blue);
+  color: var(--color-primary-light);
+  font-size: 18px;
+  font-weight: 500;
+  border: 0;
+  padding: 16px 32px;
+  border-radius: 32px;
+  line-height: 21px;
+  width: 281px;
+  height: 53px;
+}
+
+#banner2 .description h1 {
+  color: var(--color-primary-darkblue);
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+#banner2 .description h1 span {
+  color: var(--color-primary-blue);
+}
+#banner2 .description p {
+  color: var(--color-primary-darkblue);
+  line-height: 38px;
+}
+.whyUs h1 {
+  color: var(--color-primary-darkblue);
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+.whyUs h1 span {
+  color: var(--color-primary-blue);
+}
+.whyUs p {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.procedures h1 {
+  color: var(--color-primary-darkblue);
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.procedures h1 span {
+  color: var(--color-primary-blue);
+}
+.procedures ul {
+  list-style-type: none;
+}
+.procedures img {
+  border-radius: 4px 120px 4px 120px;
+}
+.findUs {
+  text-align: center;
+}
+.findUs .content {
+  margin-top: 32px;
+  justify-content: center;
+  gap: 32px;
+  align-items: center;
+  display: flex;
+}
+.findUs h1 {
+  color: var(--color-primary-darkblue);
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+.findUs h1 span {
+  color: var(--color-primary-blue);
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: var(--color-primary-light);
+  width: 423px;
+  height: 481px;
+  border-radius: 32px;
+  background-color: var(--color-seconday-darkblue);
+}
+.form .header {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-weight: 500;
+  width: 274px;
+  text-align: center;
+}
+.form .header span {
+  color: var(--color-primary-blue);
+}
+form input {
+  margin: 10px 0;
+  width: 310px;
+  height: 52px;
+  background-color: transparent;
+  font-weight: 400;
+  border: 2px solid var(--color-seconday-lightgray);
+  border-radius: 32px;
+}
+form label {
+  font-size: 13px;
+  position: absolute;
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+.form p:last-child {
+  font-size: 12px;
+  width: 213px;
+  align-items: center;
+  color: var(--color-seconday-darkgray);
+  line-height: 18px;
+}
+
+footer {
+  margin-top: 100px;
+  padding: 50px;
+  position: relative;
+  height: 278px;
+  color: var(--color-primary-light);
+  background-color: var(--color-primary-darkblue);
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-around;
+}
+footer .header {
+  font-size: 22px;
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  color: var(--color-primary-blue);
+}
+footer ul {
+  max-width: 203px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .contacts li:last-child {
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+}
+footer .politics p:last-child {
+  margin-top: 20px;
+  font-size: 13px;
+  color: var(--color-seconday-lightgray);
+}
+footer img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
